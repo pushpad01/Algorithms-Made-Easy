@@ -6,33 +6,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/ico" href="favicon.ico">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Sorting & Searching Visualizer</title>
+    <title></title>
 </head>
 <body>
     
     <!-- Navbar Starts -->
     <div class="navbar" id="navbar">
-        <a id="random" onclick="RenderScreen()">Random</a>
+        <a id="random" onclick="RenderScreen()">Generate New Array</a>
         
         <span class="options">
-            <select name="Algorithm" id="menu" class="algo-menu">
-                <option value="0">Algorithm</option>
-                <option value="1">Bubble Sort</option>
-                <option value="2">Selection Sort</option>
-                <option value="3">Insertion Sort</option>
-                <option value="4">Merge Sort</option>
-                <option value="5">Quick Sort</option>
-                <option value="6">Heap Sort</option>
-                <option value="7">Depth First Search</option>
-                <option value="8">Breadth First Search</option>
-                <option value="9">Linear Search</option>
-                <option value="10">Binary Search</option>
-            </select>
-        </span>
-
-        <span class="options">
             <select name="Size" id="menu" class="size-menu">
-                <option value="0">Size</option>
+                <option value="0">Size of Array</option>
                 <option value="5">5</option>
                 <option value="10">10</option>
                 <option value="15">15</option>
@@ -49,6 +33,22 @@
         </span>
 
         <span class="options">
+            <select name="Algorithm" id="menu" class="algo-menu">
+                <option value="0">Choose Algorithm</option>
+                <option value="4">Merge Sort</option>
+                <option value="5">Quick Sort</option>
+                <option value="6">Heap Sort</option>
+                <option value="1">Bubble Sort</option>
+                <option value="2">Selection Sort</option>
+                <option value="3">Insertion Sort</option>
+                <!-- <option value="7">Depth First Search</option>
+                <option value="8">Breadth First Search</option> -->
+                <option value="9">Linear Search</option>
+                <option value="10">Binary Search</option>
+            </select>
+        </span>
+
+        <span class="options">
             <select name="Algorithm" id="menu" class="speed-menu">
                 <option value="0">Speed</option>
                 <option value="0.5">0.50x</option>
@@ -60,7 +60,7 @@
         </span>
 
         <span class="options">
-            <input type="number" id="menu" class ="input" placeholder="number to be searched">
+            <input type="number" id="menu" class ="input" placeholder="Number to be Searched">
         </span>
 
         <a class="start">Start!</a>
@@ -78,10 +78,10 @@
     <!-- Footer starts here -->
     <footer>
         <p>
-            Created with <i class="fa fa-heart" style="color: #FF5252"></i> by
-            <a href="https://www.linkedin.com/in/mansimar-anand/" target="_blank" class="link">
-                Mansimar Anand
-            </a>
+            <!-- <i class="fa fa-heart" style="color: #FF5252"></i> by
+            <a href="https://www.linkedin.com/in/pushpad1/" target="_blank" class="link">
+                Sajal Pushpad
+            </a> -->
         </p>
     </footer>
     <!-- Footer ends here -->
